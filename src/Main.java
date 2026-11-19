@@ -21,7 +21,7 @@ import java.util.*;
         }
     }
 
-    // Допоміжний метод для отримання вихідного файлу з можливістю створення (Зауваження 3)
+    // Допоміжний метод для отримання вихідного файлу з можливістю створення 
     public static File getValidOutputFile(BufferedReader consoleReader, String prompt) throws IOException {
         while (true) {
             System.out.print(prompt);
@@ -49,7 +49,7 @@ import java.util.*;
     }
 
     public static void main(String[] args) {
-        // Буферизований консольний ввід-вивід (Зауваження 5)
+        // Буферизований консольний ввід-вивід 
         try (BufferedReader consoleReader = new BufferedReader(new InputStreamReader(System.in, StandardCharsets.UTF_8))) {
 
             System.out.println("=== ЗАВДАННЯ 1: Підрахунок слів та унікальні слова ===");
